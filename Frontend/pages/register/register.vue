@@ -1,3 +1,4 @@
+/*Niko*/
 <template>
 	<view class="container">
 		<image class="bg-image"></image>
