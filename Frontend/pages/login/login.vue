@@ -32,7 +32,6 @@
 		</view>
 
 		<text class="third-party-login-text">第三方登录</text>
-
 		<view class="third-party-login">
 			<view class="phone-block">
 				<image class="phone-icon" src="/static/login/phone.png"></image>
@@ -47,19 +46,11 @@
 	</view>
 </template>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
- <script> Vue.config.productionTip=false </script> -->
-
 <script>
-	// import store from "../../store";
-	// //微信登录
-	// const WxLogin=()=>{
-	// 	store.toLoginByWx();
-	// }
-
 	import {
 		mapMutations
 	} from 'vuex'
+	
 	export default {
 		data() {
 			return {
