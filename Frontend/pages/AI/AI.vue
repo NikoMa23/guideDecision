@@ -232,4 +232,5 @@
 	.chat-function {
 		margin-left: 15vw;
 	}
+
 </style>
