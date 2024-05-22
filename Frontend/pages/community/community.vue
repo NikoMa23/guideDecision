@@ -13,6 +13,7 @@
 			</view>
 			<image class="message" src="/static/community/message.png" />
 		</view>
+		
 		<view class="main-area">
 			<view class="main-context">
 				<view class="search-box">
@@ -24,6 +25,7 @@
 						</uni-forms-item>
 					</uni-forms>
 				</view>
+				
 				<view class="post-show">
 					<!-- 帖子分类导航 -->
 					<scroll-view class="sort" scroll-x="true" scroll-with-animation>
@@ -32,6 +34,7 @@
 							{{ item.name }}
 						</view>
 					</scroll-view>
+					
 					<!-- 各类别下的帖子列表 -->
 					<view class="posts" :style="'height:'+clientHeight+'px;'">
 						<!-- <view class="main-posts"> -->
@@ -63,7 +66,6 @@
 								</template>
 							</helang-waterfall-list>
 						</scroll-view>
-						<!-- </view> -->
 					</view>
 				</view>
 			</view>
