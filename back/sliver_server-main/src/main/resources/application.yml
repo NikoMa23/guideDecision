@@ -1,0 +1,39 @@
+spring:
+  #  servlet\u914D\u7F6E
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  http:
+    encoding: charset=UTF-8
+
+  # datasource \u6570\u636E\u6E90
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://8.130.121.208/sliver_dev
+    username: sliver_dev
+    password: C6XkjisfT8fZLica
+    hikari:
+      allow-pool-suspension: true
+      auto-commit: true
+      maxLifetime: 60000
+      idleTimeout: 30000
+      minimumIdle: 5
+      maximumPoolSize: 10
+  # spring security \u5B89\u5168\u914D\u7F6E
+  security:
+    user:
+      name: zhdiwnd
+      password: 198105
+
+
+#\u8D44\u6E90\u5B58\u653E\u5904
+custom:
+  static:
+    resource:
+      path1: file:./data/post/images/
+      path2: file:./data/user/headPortrait/
+# \u7AEF\u53E3\u914D\u7F6E
+server:
+  port: 8080
