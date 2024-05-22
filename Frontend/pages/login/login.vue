@@ -32,6 +32,7 @@
 		</view>
 
 		<text class="third-party-login-text">第三方登录</text>
+		
 		<view class="third-party-login">
 			<view class="phone-block">
 				<image class="phone-icon" src="/static/login/phone.png"></image>
