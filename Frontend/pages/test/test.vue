@@ -13,6 +13,7 @@
 					<text class="username">哇哈哈</text>
 				</view>
 			</view>
+			
 			<image class="message" src="/static/community/message.png" />
 		</view>
 
